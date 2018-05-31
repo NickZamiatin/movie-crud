@@ -8,7 +8,7 @@ const movieRoutes = require('./routes/movies')
 app.use(cors());
 app.use(morgan('dev'));
 app.use(express.json());
-app.use(express.bodyParser({extended : true}));
+// app.use(express.bodyParser({extended : true}));
 
 
 
